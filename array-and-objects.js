@@ -1,3 +1,7 @@
+console.log(" ")
+console.log("Array and Objects *******************************")  
+
+
 var bob = ["Bob", "look", 1999, "teacher"];
 console.log(bob);
 bob.push("bike");
@@ -33,9 +37,3 @@ pop.age = 44;
 pop["job"] = "programmer";
 
 console.log("pop", pop);
-
-var array = ["a", "b", "c", "d", "e", "f", "g"];
-for (i = array.length - 1; i >= 0; i--) {
-  if (array[i] === "d") continue;
-  console.log(array[i]);
-}
