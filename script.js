@@ -35,6 +35,6 @@ switch(value){
         console.log("Match found");
         break;
     default:
-        console.log("Match not found");        
+        console.log("Match not found y");        
 }
  
