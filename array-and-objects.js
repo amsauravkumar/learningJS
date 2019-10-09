@@ -27,7 +27,7 @@ var josh = {
     this.age = 2019 - this.DOB;
   }
 };
-console.log(josh.calculateAge());
+
 console.log("josh", josh);
 
 var pop = new Object();
