@@ -11,23 +11,7 @@
 //     console.log("Match not found");
 // }
 
-// var player1Height = prompt("Enter player1 Height");
-// var player1Age = prompt("Enter player1 Age");
 
-// var player2Height = prompt("Enter player2 Height");
-// var player2Age = prompt("Enter player2 Age");
-
-// player1Result = player1Height + player1Age * 5;
-// player2Result = player2Height + player2Age * 5;
-
-// if (player1Result > player2Result) {
-//   console.log("Player1 Wins");
-// } else if (player1Result < player2Result) {
-//   console.log("player2 Wins");
-// }
-// else{
-//     console.log("Draw")
-// }
 
 var currentyear = 2019;
 
