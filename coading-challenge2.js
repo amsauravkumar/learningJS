@@ -2,6 +2,7 @@ console.log(" ");
 console.log("Coading Challenge 2 **********************");
 
 var years = [2005, 1971, 1991, 2016, 1999];
+var years2 = [1997, 2008, 2001, 2011, 1985];
 var age = [];
 var booleanResult = [];
 var currentYear = 2019;
@@ -9,8 +10,6 @@ var currentYear = 2019;
 function calculateAge(year) {
   return currentyear - year;
 }
-
-printFullAge(years);
 
 function printFullAge(yearsArray) {
   for (var i = 0; i < yearsArray.length; i++) {
@@ -31,4 +30,8 @@ function printFullAge(yearsArray) {
   return booleanResult;
 }
 
+var full_1 = printFullAge(years);
+var full_2 = printFullAge(years2);
 
+console.log(full_1);
+console.log(full_2);
