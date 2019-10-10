@@ -12,7 +12,7 @@
 // }
 
 console.log(" ")
-console.log("Rtirement check(function calling another function) **********************");
+console.log("Retirement check(function calling another function) **********************");
 
 var currentyear = 2019;
 function calculateAge(yearOfBirth) {
@@ -36,5 +36,4 @@ function calculateTimeSpan(name, yearOfBirth) {
 calculateTimeSpan("Alies", 1997);
 calculateTimeSpan("Bob", 1957);
 calculateTimeSpan("John", 1955);
-
 
