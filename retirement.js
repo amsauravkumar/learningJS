@@ -36,3 +36,5 @@ function calculateTimeSpan(name, yearOfBirth) {
 calculateTimeSpan("Alies", 1997);
 calculateTimeSpan("Bob", 1957);
 calculateTimeSpan("John", 1955);
+
+

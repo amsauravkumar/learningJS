@@ -5,10 +5,10 @@ var years = [2005, 1971, 1991, 2016, 1999];
 var years2 = [1997, 2008, 2001, 2011, 1985];
 var age = [];
 var booleanResult = [];
-var currentYear = 2019;
+var currentYear = 2029;
 
 function calculateAge(year) {
-  return currentyear - year;
+  return currentYear - year;
 }
 
 function printFullAge(yearsArray) {
