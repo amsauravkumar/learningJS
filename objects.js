@@ -16,6 +16,9 @@ var student = function(firstName, lastName, year){
     }
 
 }
+student.prototype.calculateAge = function(){
+    console.log(2019 - this.year)
+} 
 
 var bob = new student('bob', 'jan', 1997);
 bob.calculateAge();
