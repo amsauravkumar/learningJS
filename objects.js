@@ -23,3 +23,22 @@ student.prototype.calculateAge = function(){
 var bob = new student('bob', 'jan', 1997);
 bob.calculateAge();
 console.log(bob)
+
+
+var personProto = {
+    calculateAge: function(){
+        console.log(2019-this.year);
+    }
+}
+
+var john = Object.create(personProto);
+john.name = "john";
+john.year = 1990;
+
+
+// Creating an object
+var roy = Object.create(personProto,
+    {
+        name: {value: 'roy'},
+        year: {value: 1966}
+    })
