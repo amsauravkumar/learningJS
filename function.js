@@ -14,3 +14,20 @@ function fn(i){
 
 var ages = claculateAge(dob, fn);
 console.log(ages)
+
+// prctice 2
+
+ var float = [12.33, 5.55, 6.82, 233.3];
+
+ function rounfOff(float){
+     var int = [];
+    for(var i=0;i<float.length;i++){
+        int.push(i);
+    }
+    return int;
+ }
+
+
+ var ppp = rounfOff(float)
+
+ console.log(ppp)
