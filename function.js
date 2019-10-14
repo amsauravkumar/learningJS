@@ -1,5 +1,6 @@
-var dob = [1997, 1854, 1998, 2000];
+// Passing function has argumanets
 
+var dob = [1997, 1854, 1998, 2000];
 function claculateAge(dob, fn) {
   var age = [];
   for (var i = 0; i < dob.length; i++) {
@@ -7,7 +8,6 @@ function claculateAge(dob, fn) {
   }
   return age;
 }
-
 function fn(i) {
   return 2019 - i;
 }
@@ -15,7 +15,7 @@ function fn(i) {
 var ages = claculateAge(dob, fn);
 console.log(ages);
 
-// prctice 2
+//RoundOff method
 
 var float = [12.33, 5.55, 6.82, 233.3];
 
@@ -30,7 +30,7 @@ function rounfOff(float) {
 var roundedOff = rounfOff(float);
 console.log(roundedOff);
 
-// function within another function
+// A function returning another function
 
 function interviewQuestion(jobRole) {
   if (jobRole === "teacher") {
@@ -50,3 +50,17 @@ var teacherQuestion = interviewQuestion("teacher");
 teacherQuestion("joly");
 teacherQuestion("roy");
 teacherQuestion("gyan");
+
+function outerFunction(role) {
+  if (role === "tecafsgs") {
+    return function() {};
+  }
+}
+
+// Immediately invoked function expressions
+
+
+(function (){
+    var score = Math.random() * 10;
+    console.log(score>=5)
+})();
