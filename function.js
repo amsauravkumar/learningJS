@@ -39,7 +39,7 @@ function interviewQuestion(jobRole) {
     };
   } else if (jobRole === "programmer") {
     return function(name) {
-      console.log("Programming language you know");
+      console.log("Programming language you know " + name);
     };
   } else {
     console.log("job profile doesnt match any");
@@ -47,6 +47,7 @@ function interviewQuestion(jobRole) {
 }
 
 var teacherQuestion = interviewQuestion("teacher");
+interviewQuestion("programmer")("jack");
 teacherQuestion("joly");
 teacherQuestion("roy");
 teacherQuestion("gyan");
@@ -59,8 +60,41 @@ function outerFunction(role) {
 
 // Immediately invoked function expressions
 
-
-(function (){
-    var score = Math.random() * 10;
-    console.log(score>=5)
+(function() {
+  var score = Math.random() * 10;
+  console.log(score >= 5);
 })();
+
+//understanding closures(interview questions using closures)
+
+function interviewQuestions(jobRole) {
+    return function(name){
+        if(jobRole === "Programmer"){
+            console.log("most use programming lang "+name)
+        }
+        else if(jobRole === "Teacher"){
+            console.log("subjects taught " +name)
+        }
+        else{
+            console.log("job profile doesent match")
+        }
+    }
+}
+
+var checkJob = interviewQuestions("Programmer");
+console.log(checkJob)
+checkJob("stack");
+
+// var jane = {
+//     name: "Jane",
+    
+//     logHello: function (friends) {
+//         friends.forEach( function(friend) {
+//             console.log(this.name + " says hello to " + friend)
+//             console.log(this.name)
+//         });
+//     }
+// }
+
+// console.log(jane.name)
+// jane.logHello(['John', 'Tina'])
