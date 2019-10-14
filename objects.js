@@ -15,7 +15,7 @@ var student = function(firstName, lastName, year){
         console.log(this.age)
     }
 
-}
+} 
 student.prototype.calculateAge = function(){
     console.log(2019 - this.year)
 } 
@@ -42,3 +42,24 @@ var roy = Object.create(personProto,
         name: {value: 'roy'},
         year: {value: 1966}
     })
+
+
+
+    //primitive vs objects
+
+var age = 20;
+
+var obj = {
+    name : 'saurav'
+}
+
+function change(a, b){
+    a = 30;
+    b.name = 'kumar'
+    console.log(a)
+}
+
+change(age, obj);
+
+console.log(age);
+console.log(obj.name)
