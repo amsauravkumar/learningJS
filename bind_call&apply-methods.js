@@ -1,4 +1,4 @@
-// CALL methods
+// Call    methods
 
 var roy = {
   name: "roy",
@@ -14,8 +14,9 @@ var kane = {
 }
 
 roy.message("hello", 555);
-roy.message.call(kane, "Hi", 999)
+roy.message.call(kane, "Hi", 999);
+
+// Bind methods
 
 var gateMessage = roy.message.bind(kane);
-
 gateMessage('yo', 1000)
