@@ -85,16 +85,4 @@ var checkJob = interviewQuestions("Programmer");
 console.log(checkJob)
 checkJob("stack");
 
-// var jane = {
-//     name: "Jane",
 
-//     logHello: function (friends) {
-//         friends.forEach( function(friend) {
-//             console.log(this.name + " says hello to " + friend)
-//             console.log(this.name)
-//         });
-//     }
-// }
-
-// console.log(jane.name)
-// jane.logHello(['John', 'Tina'])
