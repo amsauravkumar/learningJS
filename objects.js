@@ -4,6 +4,9 @@ var student = {
     year: 1997
 }
 var year = 1222;
+
+console.log(student[year] = "9000")
+
 console.log(student)
 
 var student = function(firstName, lastName, year){
