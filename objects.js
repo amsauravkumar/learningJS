@@ -47,8 +47,7 @@ var roy = Object.create(personProto,
     })
 
 
-
-    //primitive vs objects
+//primitive vs objects
 
 var age = 20;
 
